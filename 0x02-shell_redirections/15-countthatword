@@ -1,2 +1,3 @@
 #!/bin/bash
-grep -C -I "bin” /etc/passwd
+grep -c -i "bin” /etc/passwd
+ln -s /bin/ls _ls_
